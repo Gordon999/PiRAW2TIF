@@ -17,7 +17,7 @@ valid = 0
 
 
 if len(files) > 0:
-    for x in range(5,len(files)):
+    for x in range(0,len(files)):
         # Open raw file
         f = open(files[x],'rb')
         image = np.fromfile (f,dtype=np.uint8,count=-1)
